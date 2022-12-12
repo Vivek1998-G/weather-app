@@ -4,7 +4,7 @@ import axios from 'axios';
 import { useState } from 'react';
 import { BsSearch } from 'react-icons/bs';
 import Weather from '../components/Weather';
-import Spinner from '../components/Spinner';
+import Spinner from '../components/spinner';
 
 export default function Home() {
   const [city, setCity] = useState('');
