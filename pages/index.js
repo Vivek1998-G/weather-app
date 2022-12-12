@@ -39,8 +39,10 @@ export default function Home() {
         {/* Background image */}
         <Image
           src='https://images.unsplash.com/photo-1562155618-e1a8bc2eb04f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1491&q=80'
+          alt=""
           layout='fill'
           className='object-cover'
+  
         />
 
         {/* Search */}
